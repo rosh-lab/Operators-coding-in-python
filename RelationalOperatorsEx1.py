@@ -1,0 +1,13 @@
+#program for demonstrating relational operators
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+print("*"*50)
+print("Results of relational operators")
+print("*"*50)
+print("\t\t{}>{}={}".format(a,b,a>b))
+print("\t\t{}<{}={}".format(a,b,a<b))
+print("\t\t{}>={}={}".format(a,b,a>=b))
+print("\t\t{}<={}={}".format(a,b,a<=b))
+print("\t\t{}=={}={}".format(a,b,a==b))
+print("\t\t{}!={}={}".format(a,b,a!=b))
+print("*"*50)
